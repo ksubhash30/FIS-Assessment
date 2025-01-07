@@ -9,14 +9,15 @@ public class ActionDriver extends BaseClass {
 
     public void click(WebDriver driver, WebElement ele) {
 
-        //Actions act = new Actions(driver);
-        //act.moveToElement(ele).click().build().perform();
+//        Actions act = new Actions(driver);
+//        act.moveToElement(ele).click().build().perform();
         ele.click();
 
     }
 
     public boolean findElement(WebDriver driver, WebElement ele) {
         boolean flag = false;
+
         try {
             ele.isDisplayed();
             flag = true;

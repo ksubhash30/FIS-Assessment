@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Mahesh/IdeaProjects/FIS_EBay_Project/pom.xml">
-        <parameter name="browser" value="FireFox"></parameter>
+        <parameter name="browser" value="Chrome"></parameter>
         <classes>
             <class name="com.ebay.tests.ValidateCart">
                 <methods>

@@ -19,7 +19,7 @@ public class HomePage extends BaseClass {
     @FindBy(xpath = "//*[@id='gh-btn']")
     WebElement serchbutton;
 
-    @FindBy(xpath = "//*[@Id='srp-river-results']//child::li[@Class='s-item s-item__pl-on-bottom'][1]")
+    @FindBy(xpath = "//*[@Id='srp-river-results']//li[@Class='s-item s-item__pl-on-bottom'][1]//child::div[2]")
     WebElement resultwindow;
 
     public void enterBookName(String bookname) throws InterruptedException {
